@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container .inp {
+  background-color: rgb(76, 75, 75);
+  color: white;
+  border-color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .container form .slide {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .container {
+    width: 100%;
+  }
+}
